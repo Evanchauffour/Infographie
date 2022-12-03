@@ -1,0 +1,215 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    overflow-x: hidden;
+    background-color: #88bff7;
+    height: 4000vh; 
+    font-family: Poppins;
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
+
+.montagne{
+    width: 100%;
+    height: 100%;
+}
+
+.intro{
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.intro h1{
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%);
+    font-size: 2vw;
+}
+
+.deux{
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: -1;
+    width: 100vw;
+    height: 100vh;
+}
+
+.container-info-neige{
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%);
+    transition: all 1s ease;
+    opacity: 0;
+}
+
+.container-info-neige-deux{
+    position: absolute;
+    top: 20%;
+    left: -40%;
+    opacity: 0;
+}
+
+.container-info-neige-deux img{
+    width: 40vw;
+}
+
+.container-info-neige-trois{
+    position: absolute;
+    top: 35%;
+    right: -40%;
+    opacity: 0;
+    text-align: right;
+}
+.container-info-neige-trois img{
+    width: 40vw;
+}
+
+.tours-section-deux{
+    display: flex;
+    flex-direction: column-reverse;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: 0.5s ease;
+}
+
+.tours-section-deux img{
+    width: 55px;
+    opacity: 1;
+    transition: 0.5s ease;
+}
+
+.tours-section-deux.tour-open{
+    animation: open 0.5s ease;
+}
+
+.trois{
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: -4;
+    width: 100vw;
+    height: 100vh;
+}
+
+.montagne-neige-nuit{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.ciel{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity 1.5s linear;
+    z-index: -4;
+}
+
+.lune{
+    position: fixed;
+    bottom: 30%;
+    right: -20%;
+    z-index: -3;
+}
+
+.container-titre-neige-nuit{
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%);
+    transition: all 2s ease;
+    opacity: 0;
+    color: black;
+}
+
+.container-info-neige-nuit-un{
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    opacity: 0;
+    transition: all 1s ease;
+    z-index: 1000;
+}
+
+.container-info-neige-nuit-deux{
+    position: absolute;
+    top: 20%;
+    right: 15%;
+    opacity: 0;
+    transition: all 1s ease;
+    text-align: right;
+    z-index: 1000;
+}
+
+.tours-section-trois{
+    display: flex;
+    flex-direction: column-reverse;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: 0.5s ease;
+}
+
+.tours-section-trois img{
+    width: 18px;
+    opacity: 1;
+    transition: 0.5s ease;
+}
+
+.quatre{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -5;
+    opacity: 0;
+    transition: opacity 1s linear;
+}
+
+.lunenuit{
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+}
+
+.ciel-nuit{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.oiseaux{
+    position: absolute;
+    top: 5%;
+    left: 20%;
+}
+
+.titre-nuit{
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%);
+    transition: all 2s ease;
+    opacity: 0;
+    color: rgb(255, 255, 255);
+}
+
+
+
